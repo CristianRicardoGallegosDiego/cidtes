@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "numero": "55-4167-3334",
+        "icon": "fa-solid fa-phone",
+        "alt": "Teléfono de oficina"
+    },
+    {
+        "id": 2,
+        "numero": "55-6812-5783",
+        "icon": "fa-solid fa-mobile",
+        "alt": "Celular"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "icon": "fa-brands fa-facebook",
+        "link": "",
+        "alt": "facebook"
+    },
+    {
+        "id": 2,
+        "icon": "fa-brands fa-instagram",
+        "link": "",
+        "alt": "instagram"
+    },
+    {
+        "id": 3,
+        "icon": "fa-brands fa-square-x-twitter",
+        "link": "",
+        "alt": "x"
+    }
+]
