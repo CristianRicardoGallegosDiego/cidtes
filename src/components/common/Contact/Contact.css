@@ -11,14 +11,14 @@
     width: 100%;
     border-radius: 1rem;
     border: none;
-    background-color: #007bff;
+    background-color: var(--blue-3);
     transition: all 0.5s ease;
     padding: 1rem 0;
 }
 
 .contact-container-section button:hover {
     cursor: pointer;
-    background-color: #0056b3;
+    background-color: var(--blue-4);
 }
 
 .contact-container-section button img {

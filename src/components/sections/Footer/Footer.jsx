@@ -17,78 +17,87 @@ const Footer = () => {
                     <img src={Logo} alt="Logo" />
                     <div>
                         <h2>Siguenos en:</h2>
-                        <div>
+                        <ul>
                             {
                                 RedesSociales.map((red) => {
                                     return (
-                                        <a 
-                                            key={red.id}
-                                            href={red.link}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                        >
-                                            <FontAwesomeIcon icon={red.icon} alt={red.alt}/>
-                                        </a>
+                                        <li>
+                                            <a 
+                                                key={red.id}
+                                                href={red.link}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                            >
+                                                <FontAwesomeIcon icon={red.icon} alt={red.alt}/>
+                                            </a>
+                                        </li>
                                     );
                                 })
                             }
-                        </div>
+                        </ul>
                     </div>
                 </div>
                 <div className="footer-cidtes-container">
-                    <div>
+                    <div className="general-info-container">
                         <h2>Información General</h2>
-                        <div>
+                        <ul>
                             {
                                 InformacionGeneral.map((info) => {
                                     return (
-                                        <Link 
-                                            key={info.id}
-                                            to={info.link}
-                                        >
-                                            {info.title}
-                                        </Link>
+                                        <li>
+                                            <Link 
+                                                key={info.id}
+                                                to={info.link}
+                                            >
+                                                {info.title}
+                                            </Link>
+                                        </li>
                                     );
                                 })
                             }
-                        </div>
+                        </ul>
                     </div>
-                    <div>
-                        <div>
-                            <h2>Correos</h2>
-                            <div>
-                                {
-                                    CorreosElectronicos.map((correo) => {
-                                        return (
-                                            <a 
-                                                key={correo.id}
-                                                href={`mailto:${correo.correo}`}
-                                            >
-                                                <FontAwesomeIcon icon="fa-solid fa-envelope" alt="envelope"/>
-                                                {correo.correo}
-                                            </a>
-                                            
-                                        );
-                                    })
-                                }
+                    <div className="contact-info-container">
+                        <div className="information-cidtes">
+                            <div className="emails">
+                                <h2>Correos</h2>
+                                <ul>
+                                    {
+                                        CorreosElectronicos.map((correo) => {
+                                            return (
+                                                <li>
+                                                    <a 
+                                                        key={correo.id}
+                                                        href={`mailto:${correo.correo}`}
+                                                    >
+                                                        <FontAwesomeIcon icon="fa-solid fa-envelope" alt="envelope"/>
+                                                        <p>{correo.correo}</p>
+                                                    </a>
+                                                </li>
+                                            );
+                                        })
+                                    }
+                                </ul>
                             </div>
-                        </div>
-                        <div>
-                            <h2>Telefonos</h2>
-                            <div>
-                                {
-                                    Telefonos.map((telefono) => {
-                                        return (
-                                            <a 
-                                                key={telefono.id}
-                                                href={`tel:${telefono.numero}`}
-                                            >
-                                                <FontAwesomeIcon icon={telefono.icon} alt={telefono.alt}/>
-                                                {telefono.numero}
-                                            </a>
-                                        );
-                                    })
-                                }
+                            <div className="phone-numbers">
+                                <h2>Teléfonos</h2>
+                                <ul>
+                                    {
+                                        Telefonos.map((telefono) => {
+                                            return (
+                                                <li>
+                                                    <a 
+                                                        key={telefono.id}
+                                                        href={`tel:${telefono.numero}`}
+                                                    >
+                                                        <FontAwesomeIcon icon={telefono.icon} alt={telefono.alt}/>
+                                                        <p>{telefono.numero}</p>
+                                                    </a>
+                                                </li>
+                                            );
+                                        })
+                                    }
+                                </ul>
                             </div>
                         </div>
                         <div className="location-container">

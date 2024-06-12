@@ -2,11 +2,11 @@
     {
         "id": 1,
         "title": "Buzón Online",
-        "link": ""
+        "link": "buzon-online"
     },
     {
         "id": 2,
         "title": "Atención a Usuarios",
-        "link": ""
+        "link": "atencion-a-usuarios"
     }
 ]

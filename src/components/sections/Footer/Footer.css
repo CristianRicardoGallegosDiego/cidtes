@@ -1,7 +1,7 @@
 .footer-container{
     display: flex;
     flex-direction: column;
-    background-color: var(--purple-1);
+    background-color: var(--blue-3);
     font-family: var(--roboto);
     color: var(--white-1);
 }
@@ -23,8 +23,35 @@
     height: auto;
 }
 
+.info-cidtes-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-cidtes-container div ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.info-cidtes-container div ul li svg {
+    color: var(--white-1);
+    font-size: 2rem;
+    transition: all 0.5s ease;
+    
+}
+
+.info-cidtes-container div ul li svg:hover {
+    transform: scale(1.25);
+}
+
+.info-cidtes-container div h2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
 .last-footer-info {
-    background-color: var(--green-1);
+    background-color: var(--blue-4);
     border-top: 2px solid var(--white-1);
     padding: 2rem 0;
     display: flex;
@@ -40,19 +67,115 @@
     padding-bottom: 1rem;
 }
 
-.location-container iframe {
+.footer-cidtes-container .general-info-container {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.general-info-container h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.general-info-container ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.general-info-container ul li {
+    padding: 0.4rem 0;
+    transition: all 0.5s ease;
+}
+
+.general-info-container ul li a:hover {
+    color: var(--blue-4);
+    text-decoration: underline;
+}
+
+.general-info-container ul li a {
+    color: var(--white-1);
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
+.footer-cidtes-container .contact-info-container {
     width: 30vw;
-    height: 40vh;
-    border-radius: 0.5rem;
 }
 
 .footer-cidtes-container .contact-container {
     background-color: var(--white-1);
     color: var(--black-1);
-    width: 25vw;
+    width: 30vw;
     padding: 5vh 2vw;
     box-sizing: border-box;
     border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-info-container .information-cidtes {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.contact-info-container .information-cidtes div h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+.information-cidtes div ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-cidtes div ul li {
+    padding: 0.4rem 0;
+    transition: all 0.5s ease;
+    font-size: 1.125rem;
+}
+
+.information-cidtes div ul li a {
+    display: flex;
+    color: var(--white-1);
+    text-decoration: none;
+}
+
+.information-cidtes div ul li a:hover {
+    color: var(--blue-4);
+    text-decoration: underline;
+}
+
+.information-cidtes div ul li a svg {
+    padding-right: 0.5rem;
+}
+
+.location-container h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.location-container div {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.location-container div svg {
+    padding-right: 0.5rem;
+}
+
+.location-container div p {
+    font-size: 1.125rem;
+}
+
+.location-container iframe {
+    width: 100%;
+    height: 40vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .footer-cidtes-container .contact-container h2 {

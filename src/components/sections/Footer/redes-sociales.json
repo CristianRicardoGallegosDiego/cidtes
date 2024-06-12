@@ -2,19 +2,19 @@
     {
         "id": 1,
         "icon": "fa-brands fa-facebook",
-        "link": "",
+        "link": "https://www.facebook.com/energiaysustentabilidad.org/?locale=es_LA",
         "alt": "facebook"
     },
     {
         "id": 2,
         "icon": "fa-brands fa-instagram",
-        "link": "",
+        "link": "https://www.instagram.com/cidtes_mx/",
         "alt": "instagram"
     },
     {
         "id": 3,
         "icon": "fa-brands fa-square-x-twitter",
-        "link": "",
+        "link": "https://x.com/CIDTES_MX",
         "alt": "x"
     }
 ]
