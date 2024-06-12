@@ -21,9 +21,8 @@ const Footer = () => {
                             {
                                 RedesSociales.map((red) => {
                                     return (
-                                        <li>
+                                        <li key={red.id}>
                                             <a 
-                                                key={red.id}
                                                 href={red.link}
                                                 target="_blank"
                                                 rel="noreferrer"
@@ -44,9 +43,8 @@ const Footer = () => {
                             {
                                 InformacionGeneral.map((info) => {
                                     return (
-                                        <li>
-                                            <Link 
-                                                key={info.id}
+                                        <li key={info.id}>
+                                            <Link
                                                 to={info.link}
                                             >
                                                 {info.title}
@@ -55,6 +53,15 @@ const Footer = () => {
                                     );
                                 })
                             }
+                            <li>
+                                <a
+                                    href="https://drive.google.com/file/d/14rsFcueGRvFUV4EPr34FFg3YBSB29GC8/view"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Aviso de Privacidad
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div className="contact-info-container">
@@ -65,9 +72,8 @@ const Footer = () => {
                                     {
                                         CorreosElectronicos.map((correo) => {
                                             return (
-                                                <li>
+                                                <li key={correo.id}>
                                                     <a 
-                                                        key={correo.id}
                                                         href={`mailto:${correo.correo}`}
                                                     >
                                                         <FontAwesomeIcon icon="fa-solid fa-envelope" alt="envelope"/>
@@ -85,9 +91,8 @@ const Footer = () => {
                                     {
                                         Telefonos.map((telefono) => {
                                             return (
-                                                <li>
+                                                <li key={telefono.id}>
                                                     <a 
-                                                        key={telefono.id}
                                                         href={`tel:${telefono.numero}`}
                                                     >
                                                         <FontAwesomeIcon icon={telefono.icon} alt={telefono.alt}/>

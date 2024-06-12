@@ -1,4 +1,4 @@
-.footer-container{
+.footer-container {
     display: flex;
     flex-direction: column;
     background-color: var(--blue-3);
@@ -182,4 +182,52 @@
     font-size: 1.5rem;
     font-weight: 500;
     padding-bottom: 1rem;
+}
+
+/* Mobile Phones And Tablets */
+@media screen and (max-width: 1024px) {
+    .info-cidtes-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0 0;
+    }
+    
+    .info-cidtes-container img {
+        width: 40vw;
+    }
+
+    .contact-info-container .information-cidtes {
+        flex-direction: column;
+    }
+
+    .footer-cidtes-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-cidtes-container .general-info-container,
+    .footer-cidtes-container .contact-info-container {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0 10vw;
+        box-sizing: border-box;
+    }
+
+    .footer-cidtes-container .contact-info-container .information-cidtes div {
+        padding-top: 2rem;
+    }
+
+    .contact-info-container .information-cidtes,
+    .location-container {
+        padding-bottom: 2rem;
+    }
+
+    .footer-cidtes-container .contact-container {
+        width: 88vw;
+        justify-content: center;
+        align-items: center;
+        padding: 3vh 3vh;
+    }
 }

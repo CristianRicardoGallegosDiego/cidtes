@@ -1,9 +1,12 @@
 import 
     React, {
-        useState 
+        useState,
+        useEffect
     } 
 from "react";
 import { TextField } from "@mui/material";
+import DialogMuiCore from "../../muicore/DialogMuiCore";
+import BackdropMuiCore from "../../muicore/BackdropMuiCore";
 import TruckStatic from "../../../assets/images/truck.svg";
 import "./Contact.css";
 
@@ -11,6 +14,9 @@ const Contact = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
+
+    const [openMessage, setOpenMessage] = useState(false);
+    const [amIGoingToSubmit, setAmIGoingToSubmit] = useState(false);
 
     /**
      * Las siguientes funciones {handleName, handleEmail, handleMessage} se encargan de manejar los cambios en los campos de texto.
@@ -27,9 +33,46 @@ const Contact = () => {
         setMessage(e.target.value);
     };
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        // DEBEMOS CHECAR PRIMERO LAS ENTRADAS DE LOS CAMPOS CON UN IF
+        setOpenMessage(true);
+    };
+
+    useEffect(() => {
+        if (amIGoingToSubmit) {
+            submitMessage();
+        }
+    }, [amIGoingToSubmit]);
+
+    /* Función que se encarga ahora si del envio del correo. Aqui ya estamos seguros del envio. */
+    const submitMessage = async () => {
+        try {
+            const response = await fetch('/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ name, email, message }),
+            });
+
+            if (!response.ok) {
+                throw new Error('Error en el envío del formulario');
+            }
+
+            const data = await response.json();
+            console.log('Success:', data);
+            //alert('Formulario enviado exitosamente'); AQUI DEBEMOS MOSTRAR CON OTRO COMPONENTE
+        } catch (error) {
+            
+        } finally {
+            setAmIGoingToSubmit(false);
+        }
+    };
+
     return (
         <div>
-            <form className="contact-container-section">
+            <form className="contact-container-section" onSubmit={handleSubmit}>
                 <TextField 
                     id="name"
                     label="Nombre Completo"
@@ -64,6 +107,19 @@ const Contact = () => {
                     <h3>Enviar</h3>
                 </button>
             </form>
+            <DialogMuiCore
+                id="dialog-contact-footer"
+                title="¿Está seguro que desea enviar el mensaje?"
+                description="Una vez enviado el mensaje, no podrá ser modificado. Nos pondremos en contacto con usted lo más pronto posible."
+                textCancelButton="Cancelar"
+                textConfirmButton="Enviar"
+                openDialog={openMessage}
+                setOpenDialog={setOpenMessage}
+                setIsSubmitClicked={setAmIGoingToSubmit}
+            />
+            <BackdropMuiCore 
+                isOpen={amIGoingToSubmit}
+            />
         </div>
     );
 };
