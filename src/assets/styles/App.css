@@ -12,13 +12,18 @@
     --white-1: #FFFFFF;
     --black-1: #000000;
     --black-2: #12130F;
+
     --purple-1: #6a1b9a;
+
     --green-1: #4caf50;
     --green-2: #5B9278;
+
     --blue-1: #006989;
     --blue-2: #007090;
     --blue-3: #77A6B6;
     --blue-4: #4D7298;
+
+    --gray-1: #F9F9F9;
 }
 
 * {

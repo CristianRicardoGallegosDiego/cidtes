@@ -5,10 +5,10 @@ import {
 } from "react-router-dom";
 import Header from "./components/sections/Header/Header.jsx";
 import Footer from "./components/sections/Footer/Footer.jsx";
-import Home from "./pages/Home.jsx";
-import DigitalMailbox from "./pages/DigitalMailbox.jsx";
-import CustomerSupport from "./pages/CustomerSupport.jsx";
-import "./assets/styles/fontawesome.js"
+import Home from "./pages/Home/Home.jsx";
+import DigitalMailbox from "./pages/DigitalMailbox/DigitalMailbox.jsx";
+import CustomerSupport from "./pages/CustomerSupport/CustomerSupport.jsx";
+import "./assets/fontawesome.js"
 import "./assets/styles/reset.css";
 import "./assets/styles/App.css";
 
