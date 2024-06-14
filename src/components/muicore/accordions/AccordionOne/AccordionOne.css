@@ -1,0 +1,15 @@
+.header-accordion-mine {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--blue-4);
+}
+
+.header-accordion-mine svg {
+    padding-right: 1rem;
+}
+
+.description-accordion-mine {
+    color: var(--blue-4);
+    line-height: 1.25;
+}

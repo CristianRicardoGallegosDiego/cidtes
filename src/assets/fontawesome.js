@@ -6,7 +6,10 @@ import {
     faEnvelope,
     faBriefcase,
     faEarthAmericas,
-    faUsers
+    faUsers,
+    faLightbulb,
+    faEye,
+    faPeace
 } from "@fortawesome/free-solid-svg-icons";
 import { 
     faFacebook, 
@@ -24,5 +27,8 @@ library.add(
     faEnvelope,
     faBriefcase,
     faEarthAmericas,
-    faUsers
+    faUsers,
+    faLightbulb,
+    faEye,
+    faPeace
 );

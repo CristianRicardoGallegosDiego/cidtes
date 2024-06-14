@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "icon": "fa-solid fa-lightbulb",
+        "alt": "foco",
+        "title": "Misión",
+        "description": "Promover la investigación, innovación, desarrollo y seguimiento de proyectos en temas de energía y sustentabilidad, así como fomentar el desarrollo de capacidades, asesoría técnica especializada y el fortalecimiento de la cultura."
+    },
+    {
+        "id": 2,
+        "icon": "fa-solid fa-eye",
+        "alt": "ojo",
+        "title": "Visión",
+        "description": "Ser líder en soluciones sustentables e integrales conformando un grupo de expertos como ente de cambio en México."
+    }
+]

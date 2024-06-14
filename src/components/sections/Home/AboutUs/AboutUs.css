@@ -1,0 +1,36 @@
+.about-us-container {
+    background-color: var(--blue-3);
+    width: 70vw;
+    box-sizing: border-box;
+    padding: 5vh 6vw;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    margin: 2.5vh 0 5vh 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-us-container:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
+}
+
+.about-us-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    color: var(--white-1);
+}
+
+/* Mobile Phones And Tablets */
+@media screen and (max-width: 1024px) {
+    .about-us-container  {
+        width: 85vw;
+        padding: 4vh 6vw;
+        margin: 2vh 0 4vh 0;
+    }
+
+    .about-us-container  h1 {
+        padding-bottom: 1rem;
+    }
+}

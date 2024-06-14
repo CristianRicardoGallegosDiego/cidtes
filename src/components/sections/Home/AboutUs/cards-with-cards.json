@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "icon": "fa-solid fa-peace",
+        "alt": "valores",
+        "title": "Valores",
+        "description": "Ser líder en soluciones sustentables e integrales conformando un grupo de expertos como ente de cambio en México.",
+        "values": [
+            {
+                "title": "Compromiso Social",
+                "description": "Asumimos la obligación de responder a las necesidades que nos demanda nuestro país, para hacer frente a los cambios que enfrenta el planeta hoy en día."
+            },
+            {
+                "title": "Calidad",
+                "description": "Reconocemos la responsabilidad que tenemos al representar a la Asociación, por lo que estamos comprometidos a generar valor a los clientes entregándoles siempre productos o servicios superiores a los que espera recibir."
+            },
+            {
+                "title": "Integridad",
+                "description": "Todos los días actuamos con responsabilidad y transparencia, haciendo lo correcto para nosotros y respetando nuestro sistema de valores para contribuir con una forma de trabajo basada en la confianza."
+            },
+            {
+                "title": "Dedicación",
+                "description": "Somos una comunidad de profesionistas apasionados por lo que hacemos, que proponemos y buscamos soluciones para los retos que se presentan día a día."
+            },
+            {
+                "title": "Trabajo en Equipo",
+                "description": "Colaboramos en conjunto, dejando atrás las individualidades pero manteniendo el liderazgo y autonomía para alcanzar nuestros objetivos."
+            },
+            {
+                "title": "Equidad",
+                "description": "Promovemos la justicia e igualdad de oportunidades entre todos los miembros de nuestro equipo y colaboradores externos, así como reconocemos y otorgamos a cada uno el justo valor por su trabajo."
+            },
+            {
+                "title": "Servicio",
+                "description": "Tenemos un alto sentido de colaboración y ayuda a nuestros semejantes para propiciar el vivir mejor en nuestra sociedad."
+            }
+        ]
+    }
+]  
