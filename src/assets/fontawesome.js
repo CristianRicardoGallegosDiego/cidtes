@@ -3,7 +3,10 @@ import {
     faLocationDot,
     faPhone,
     faMobile,
-    faEnvelope
+    faEnvelope,
+    faBriefcase,
+    faEarthAmericas,
+    faUsers
 } from "@fortawesome/free-solid-svg-icons";
 import { 
     faFacebook, 
@@ -18,5 +21,8 @@ library.add(
     faLocationDot,
     faPhone,
     faMobile,
-    faEnvelope
+    faEnvelope,
+    faBriefcase,
+    faEarthAmericas,
+    faUsers
 );

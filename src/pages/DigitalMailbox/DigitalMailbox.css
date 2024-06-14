@@ -30,6 +30,22 @@
     font-weight: 600;
     font-size: 2rem;
     text-align: center;
+    transition: all 0.5s ease-in-out;
+    color: var(--blue-4);
+}
+
+.announcement-section h1:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
+}
+
+.announcement {
+    transition: all 0.5s ease-in-out;
+}
+
+.announcement:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
 }
 
 .announcement div {
@@ -41,6 +57,7 @@
     font-weight: 500;
     margin-bottom: 1.5rem;
     text-align: start;
+    color: var(--blue-4);
 }
 
 .announcement div p:not(:last-child) {

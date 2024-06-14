@@ -1,0 +1,88 @@
+.our-commitment-container {
+    background-color: var(--white-1);
+    width: 70vw;
+    box-sizing: border-box;
+    padding: 5vh 6vw;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    margin: 2.5vh 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.our-commitment-container:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
+}
+
+.our-commitment-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+    color: var(--blue-4);
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-container div {
+    width: 30%;
+    background-color: var(--blue-3);
+    color: var(--white-1);
+    box-sizing: border-box;
+    padding: 5vh 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease-in-out;
+}
+
+.cards-container div:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
+    background-color: var(--blue-4);
+}
+
+.cards-container div svg {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+}
+
+.cards-container div h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.cards-container div p {
+    text-align: center;
+    line-height: 1.25;
+}
+
+/* Mobile Phones And Tablets */
+@media screen and (max-width: 1024px) {
+    .our-commitment-container h1 {
+        padding-bottom: 1rem;
+    }
+
+    .our-commitment-container {
+        width: 85vw;
+        padding: 4vh 6vw;
+        margin: 2vh 0;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem 0;
+    }
+
+    .cards-container div {
+        width: 100%;
+        padding: 3vh 10%;
+    }
+}

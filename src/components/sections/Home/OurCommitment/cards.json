@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "icon": "fa-solid fa-users",
+        "alt": "personas",
+        "title": "Sociedad",
+        "body": "Promovemos y estructuramos estrategias para el cuidado del medio ambiente, a partir de acciones que logren mitigar el cambio climático, y detonen el uso de energías renovables, además de racionalizar los recursos naturales soportando la sustentabilidad de los proyectos."
+    },
+    {
+        "id": 2,
+        "icon": "fa-solid fa-briefcase",
+        "alt": "portafolio",
+        "title": "Organizaciones",
+        "body": "Procuramos el desarrollo sustentable e integral con calidad, innovación y adaptabilidad a los cambios; instrumentando investigación que optimice los recursos naturales, materiales, financieros y potenciar el talento humano."
+    },
+    {
+        "id": 3,
+        "icon": "fa-solid fa-earth-americas",
+        "alt": "mundo",
+        "title": "País",
+        "body": "Contribuimos apoyando las estrategias gubernamentales que aseguren la formación y aplicación de la normatividad y leyes. Además realizamos acciones y proyectos que impulsen el desarrollo sustentable de la población para el mejor vivir."
+    }
+]
