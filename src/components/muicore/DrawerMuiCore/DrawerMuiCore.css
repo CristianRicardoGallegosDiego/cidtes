@@ -1,0 +1,25 @@
+.drawer-close-button-mine {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    border: none;
+    background-color: var(--white-1);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.drawer-close-button-mine:hover {
+    cursor: pointer;
+    background-color: var(--gray-2);
+    color: var(--red-2);
+}
+
+.drawer-close-button-mine svg {
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+}
+
+.drawer-close-button-mine h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+}

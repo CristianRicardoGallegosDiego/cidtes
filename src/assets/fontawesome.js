@@ -9,7 +9,9 @@ import {
     faUsers,
     faLightbulb,
     faEye,
-    faPeace
+    faPeace,
+    faBars,
+    faCircleXmark
 } from "@fortawesome/free-solid-svg-icons";
 import { 
     faFacebook, 
@@ -30,5 +32,7 @@ library.add(
     faUsers,
     faLightbulb,
     faEye,
-    faPeace
+    faPeace,
+    faBars,
+    faCircleXmark
 );
