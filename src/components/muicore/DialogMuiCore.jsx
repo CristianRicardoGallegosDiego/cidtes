@@ -23,9 +23,6 @@ const DialogMuiCore = (props) => {
     return (
         <Dialog
             open={openDialog}
-            onClose={() => {
-                setOpenDialog(false);
-            }}
             aria-labelledby={`${id}-title`}
             aria-describedby={`${id}-description`}
         >

@@ -1,0 +1,11 @@
+.list-drawer-header-container {
+    display: flex;
+    align-items: center;
+    color: var(--blue-4);
+    font-weight: 600;
+}
+
+.list-drawer-header-container svg {
+    font-size: 1.25rem;
+    padding-right: 1rem;
+}

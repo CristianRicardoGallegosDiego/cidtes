@@ -17,7 +17,7 @@ const ListItem = (props) => {
     const [open, setOpen] = useState(true);
     return (
         <>
-            <ListItemButton onClick={(e) => setOpen(!open)}>
+            <ListItemButton onClick={() => setOpen(!open)}>
                 <ListItemText
                     className='list-item-header-title-mine'
                     primary={headerTitle} 

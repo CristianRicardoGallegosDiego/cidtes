@@ -1,0 +1,8 @@
+.my-link-container {
+    color: var(--blue-4);
+    text-decoration: none;
+}
+
+.my-link-container div:hover {
+    color: var(--blue-4);
+}

@@ -11,7 +11,13 @@ import {
     faEye,
     faPeace,
     faBars,
-    faCircleXmark
+    faCircleXmark,
+    faSeedling,
+    faSignHanging,
+    faUsersGear,
+    faArrowsToCircle,
+    faPuzzlePiece,
+    faHandsHoldingChild
 } from "@fortawesome/free-solid-svg-icons";
 import { 
     faFacebook, 
@@ -34,5 +40,11 @@ library.add(
     faEye,
     faPeace,
     faBars,
-    faCircleXmark
+    faCircleXmark,
+    faSeedling,
+    faSignHanging,
+    faUsersGear,
+    faArrowsToCircle,
+    faPuzzlePiece,
+    faHandsHoldingChild
 );

@@ -22,7 +22,7 @@ const Header = () => {
             </button>
             <div className="info-header-company-container">
                 <img src={Logo} alt="logo" />
-                <h1>Centro de Investigación Desarrollo Tecnológico en Energía y Sustentabilidad CIDTES A. C.</h1>
+                <h1>Centro de Capacitación, Investigación y Desarrollo Tecnológico en Energía y Sustentabilidad CIDTES A. C.</h1>
             </div>
             <DrawerMuiCore
                 isOpen={isOpenDrawer}
