@@ -63,6 +63,7 @@ const ListTwo = (props) => {
                             key={index}
                             headerTitle={card.title}
                             options={card.options}
+                            className="my-drawer-header-list-mine"
                         />
                     );
                 })

@@ -36,7 +36,6 @@ const DrawerMuiCore = (props) => {
                 isOpen={isOpen}
                 setIsOpen={setIsOpen}
             />
-
             <ItemDrawerThree
                 icon="fa-solid fa-hands-holding-child"
                 title="Servicio Social"
@@ -44,8 +43,8 @@ const DrawerMuiCore = (props) => {
                 complexItems={ComplexItemSS}
                 isOpen={isOpen}
                 setIsOpen={setIsOpen}
+                isThereSimplexItems={true}
             />
-
             <ItemDrawerOne 
                 icon="fa-solid fa-arrows-to-circle"
                 title="Coordinación"
@@ -53,13 +52,14 @@ const DrawerMuiCore = (props) => {
                 isOpen={isOpen}
                 setIsOpen={setIsOpen}
             />
-
-            {/**<Divider />
-            <ListSubheader>
-                <FontAwesomeIcon icon="fa-solid fa-users-gear" />
-                Equipo de CIDTES
-            </ListSubheader>**/}
-
+            <ItemDrawerThree
+                icon="fa-solid fa-users-gear"
+                title="Equipo de CIDTES"
+                complexItems={ComplexItemSS}
+                isOpen={isOpen}
+                setIsOpen={setIsOpen}
+                isThereSimplexItems={false}
+            />
             <ItemDrawerTwo
                 icon="fa-solid fa-lightbulb"
                 title="Marketing y Diseño"

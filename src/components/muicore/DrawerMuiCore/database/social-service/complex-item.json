@@ -3,56 +3,93 @@
         "title": "Reuniones por Google Meet",
         "options": [
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Coordinación",
+                "link": "/reuniones-meet/coordinacion"
             },
             {
                 "title": "Capacitación",
                 "link": "/reuniones-meet/capacitacion"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Recursos Humanos",
+                "link": "/reuniones-meet/recursos-humanos"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Administración",
+                "link": "/reuniones-meet/administracion"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Contabilidad",
+                "link": "/reuniones-meet/contabilidad"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Sistemas",
+                "link": "/reuniones-meet/sistemas"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Sistemas de Gestión",
+                "link": "/reuniones-meet/sistemas-de-gestion"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Seguridad",
+                "link": "/seguridad"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Derecho",
+                "link": "/reuniones-meet/derecho"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Energía",
+                "link": "/reuniones-meet/energia"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Niños",
+                "link": "/reuniones-meet/ninnos"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "Marketing y Diseño",
+                "link": "/reuniones-meet/marketing-y-disenno"
             },
             {
-                "title": "Capacitación",
-                "link": "/reuniones-meet/capacitacion"
+                "title": "ECE",
+                "link": "/reuniones-meet/ece"
+            }
+        ]
+    },
+    {
+        "title": "Test Inicial de Conocimientos",
+        "options": [
+            {
+                "title": "Administración",
+                "link": "/test-conocimientos/administracion"
+            },
+            {
+                "title": "Arte y Diseño",
+                "link": "/test-conocimientos/arte-y-disenno"
+            },
+            {
+                "title": "Contabilidad",
+                "link": "/test-conocimientos/contabilidad"
+            },
+            {
+                "title": "Derecho",
+                "link": "/test-conocimientos/derecho"
+            },
+            {
+                "title": "Ingeniería Eléctrica/Electrónica",
+                "link": "/test-conocimientos/ingeneria-electrica-electronica"
+            },
+            {
+                "title": "Ingeniería Industrial",
+                "link": "/test-conocimientos/ingeneria-industrial"
+            },
+            {
+                "title": "Pedagogía",
+                "link": "/test-conocimientos/pedagogia"
+            },
+            {
+                "title": "Recursos Humanos",
+                "link": "/test-conocimientos/recursos-humanos"
             }
         ]
     }

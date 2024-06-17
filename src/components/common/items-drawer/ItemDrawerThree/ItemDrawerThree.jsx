@@ -4,6 +4,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import ListDrawerHeader from "../../ListDrawerHeader/ListDrawerHeader";
 import ListTwo from "../../../muicore/lists/ListTwo/ListTwo";
+import "./ItemDrawerThree.css";
 
 const ItemDrawerThree = (props) => {
     const {
@@ -12,7 +13,8 @@ const ItemDrawerThree = (props) => {
         simpleItems,
         complexItems,
         isOpen,
-        setIsOpen
+        setIsOpen,
+        isThereSimplexItems
     } = props;
     return (
         <>
@@ -22,6 +24,7 @@ const ItemDrawerThree = (props) => {
                 title={title}
             />
             {
+                isThereSimplexItems &&
                 simpleItems.map((item, index) => {
                     return (
                         <Link 
