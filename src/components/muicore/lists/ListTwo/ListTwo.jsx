@@ -8,6 +8,7 @@ import ListItemText from '@mui/material/ListItemText';
 import Collapse from '@mui/material/Collapse';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import "./ListTwo.css";
 
 const ListItem = (props) => {
     const {
@@ -20,7 +21,7 @@ const ListItem = (props) => {
         <>
             <ListItemButton onClick={() => setOpen(!open)}>
                 <ListItemText
-                    className='list-item-header-title-mine-drawer'
+                    className='list-item-header-title-mine-drawer-two'
                     primary={headerTitle} 
                 />
                 {open ? <ArrowDownwardIcon /> : <ArrowUpwardIcon />}
@@ -33,6 +34,7 @@ const ListItem = (props) => {
                             <Link
                                 key={index}
                                 to={option.link}
+                                className="list-item-item-button-drawer-two"
                             >
                                 <ListItemButton sx={{ pl: 4 }}>
                                     <ListItemText

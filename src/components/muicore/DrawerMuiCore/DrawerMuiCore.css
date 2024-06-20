@@ -2,7 +2,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
     border: none;
     background-color: var(--white-1);
     transition: all 0.3s ease-in-out 0s;

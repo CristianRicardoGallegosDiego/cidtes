@@ -1,7 +1,6 @@
 .list-drawer-header-container {
     display: flex;
     align-items: center;
-    color: var(--blue-4);
     font-weight: 600;
 }
 

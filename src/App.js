@@ -9,6 +9,7 @@ import Footer from "./components/sections/Footer/Footer.jsx";
 
 import Home from "./pages/Home/Home.jsx";
 import DigitalMailbox from "./pages/DigitalMailbox/DigitalMailbox.jsx";
+import GeneralInduction from "./pages/GeneralInduction/GeneralInduction.jsx";
 import CustomerSupport from "./pages/CustomerSupport/CustomerSupport.jsx";
 
 import "./assets/fontawesome.js"
@@ -24,6 +25,7 @@ function App() {
         <Route path="/"                               element={<Home />} />
         <Route path="/buzon-online"                   element={<DigitalMailbox />} />
         <Route path="/atencion-a-usuarios"            element={<CustomerSupport />} />
+        <Route path="/induccion-general"              element={<GeneralInduction />} />
       </Routes>
       <Footer />
     </>

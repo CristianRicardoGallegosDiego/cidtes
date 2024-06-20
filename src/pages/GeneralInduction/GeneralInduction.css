@@ -1,0 +1,70 @@
+.induction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-1);
+    padding: 2.5vh 0;
+    font-family: var(--roboto);
+}
+
+.general-induction-container, 
+.induction-syst-container {
+    box-sizing: border-box;
+    width: 70vw;
+    background-color: var(--white-1);
+    padding: 5vh 5vw;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease-in-out;
+    margin: 2.5vh 0;
+}
+
+.general-induction-container:hover, 
+.induction-syst-container:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
+}
+
+.general-induction-drive {
+    height: 60vh;
+}
+
+.general-induction-container .title-container,
+.induction-syst-container .title-container {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--blue-4);
+    margin-bottom: 2rem;
+}
+
+.notice-general-induction-container h2 {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    color: var(--blue-4);
+    font-weight: 500;
+}
+
+.notice-general-induction-container div {
+    padding-bottom: 2rem;
+    line-height: 1.5;
+    font-size: 1.125rem;
+}
+
+.notice-general-induction-container div p strong {
+    font-weight: 600;
+    color: var(--blue-4);
+}
+
+/* Mobile Phones And Tablets */
+@media screen and (max-width: 1024px) {
+    .general-induction-container, 
+    .induction-syst-container {
+        width: 80vw;
+    }
+
+    .general-induction-drive, .general-induction-drive {
+        height: 30vh;
+    }
+}
