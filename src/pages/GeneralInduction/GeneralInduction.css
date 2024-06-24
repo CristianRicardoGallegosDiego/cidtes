@@ -59,9 +59,15 @@
 
 /* Mobile Phones And Tablets */
 @media screen and (max-width: 1024px) {
+    .induction-container  {
+        padding: 1vh 0; 
+    }
+
     .general-induction-container, 
     .induction-syst-container {
-        width: 80vw;
+        width: 90vw;
+        margin: 2vh 0;
+        padding: 4vh 5vw;
     }
 
     .general-induction-drive, .general-induction-drive {

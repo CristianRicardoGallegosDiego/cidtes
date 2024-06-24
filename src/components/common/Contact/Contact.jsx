@@ -43,6 +43,7 @@ const Contact = () => {
         if (amIGoingToSubmit) {
             submitMessage();
         }
+        // eslint-disable-next-line
     }, [amIGoingToSubmit]);
 
     /* Función que se encarga ahora si del envio del correo. Aqui ya estamos seguros del envio. */
