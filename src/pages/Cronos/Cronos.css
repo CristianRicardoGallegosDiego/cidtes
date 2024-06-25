@@ -1,0 +1,122 @@
+.cronos-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray-1);
+    font-family: var(--roboto);
+    gap: 5vh 0;
+    padding: 5vh 0;
+}
+
+.announcement-two-cronos-container,
+.announcement-one-cronos-container,
+.manual-container-cronos,
+.cronos-sign-up-in-container {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white-1);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    padding: 5vh 5%;
+    transition: all 0.5s ease-in-out;
+}
+
+.cronos-sign-up-in-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.announcement-two-cronos-container h1,
+.announcement-one-cronos-container h1,
+.manual-container-cronos h1,
+.cronos-sign-up-in-container h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--blue-4);
+    padding-bottom: 1.5rem;
+}
+
+.cronos-main-container div img {
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.cronos-main-container div img:hover {
+    filter: brightness(80%);
+    transform: scale(1.005);
+}
+
+.announcement-two-cronos-container:hover,
+.announcement-one-cronos-container:hover,
+.manual-container-cronos:hover,
+.cronos-sign-up-in-container:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
+}
+
+.cronos-redirection-link {
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+    background-color: var(--blue-3);
+    color: var(--white-1);
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.4);
+    margin-top: 1rem;
+}
+
+.cronos-redirection-link:hover {
+    background-color: var(--blue-4);
+    transform: scale(1.005);
+    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.6);
+}
+
+.manual-container-cronos iframe {
+    width: 100%;
+    height: 70vh;
+}
+
+.manual-container-cronos div {
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.cronos-main-container div p {
+    padding-top: 0.5rem;
+}   
+
+.cronos-main-container div p a {
+    text-decoration: none;
+    color: var(--blue-4);
+    font-weight: 600;
+}
+
+.cronos-main-container div p a:hover {
+    text-decoration: underline;
+}
+
+.announcement-two-cronos-container div,
+.announcement-one-cronos-container div {
+    line-height: 1.5;
+}
+
+
+/* Mobile Phones And Tablets */
+@media screen and (max-width: 1024px) {
+    .announcement-two-cronos-container,
+    .announcement-one-cronos-container,
+    .manual-container-cronos,
+    .cronos-sign-up-in-container {
+        width: 90vw;
+    }
+}
