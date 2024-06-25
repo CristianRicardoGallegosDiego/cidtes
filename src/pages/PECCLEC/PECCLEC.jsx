@@ -1,6 +1,16 @@
 import React from "react";
+import { 
+  Swiper,
+  SwiperSlide
+} from "swiper/react";
+import { EffectCards } from "swiper/modules";
 import { motion } from "framer-motion";
 import SectionTwoVideos from "./section-two-videos.json";
+import SectionOneVideos from "./section-one-videos.json";
+import Logo from "../../assets/images/logo2.png";
+import RedConocerLogo from "../../assets/images/red_conocer.png";
+import "swiper/css";
+import "swiper/css/effect-cards";
 import "./PECCLEC.css";
 
 const cardVariants = {
@@ -38,15 +48,56 @@ function Card({ title, url_video, hueA, hueB }) {
           title={title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           referrerPolicy="strict-origin-when-cross-origin" 
-          allowFullScreen></iframe>
+          allowFullScreen>
+        </iframe>
       </motion.div>
     </motion.div>
   );
 }
 
+const FirstContact = () => {
+  return (
+    <section className="firts-contact-container">
+      <h2>Proceso por Tríadas</h2>
+      <div className="cards-container-fisrt-part">
+        <Swiper
+          effect={'cards'}
+          grabCursor={true}
+          modules={[EffectCards]}
+          className="mySwiper"
+        >
+          {
+            SectionOneVideos.map((item, index) => {
+              return (
+                <SwiperSlide key={index} className="swiper-slidee">
+                  <h1>{item.title}</h1>
+                  <iframe 
+                    src={item.url_video} 
+                    title={item.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin" 
+                    allowFullScreen>
+                  </iframe>
+                  <p>Desliza la tarjeta</p>
+                </SwiperSlide>
+              );
+            })
+          }
+        </Swiper>
+      </div>
+    </section>
+  );
+};
+
 const PECCLEC = () => {
   return (
     <section className="pecclec-main-container">
+      <div className="header-container-pecclec">
+        <img src={Logo} alt="Logo" className="logo" />
+        <h1>Proceso de Evaluación y Certificación de Competencia Laboral y Evaluaciones Cruzadas (Tríadas)</h1>
+        <img src={RedConocerLogo} alt="Red Conocer" className="red-conocer-logo" />
+      </div>
+      <FirstContact />
       <section className="section-two-videos">
         <h1 className="title">Modelajes para Plan de Evaluación, Recopilación de Evidencias y Cierre de Evaluación</h1>
         <div className="pecclec-container">
