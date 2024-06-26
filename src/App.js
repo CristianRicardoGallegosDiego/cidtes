@@ -18,6 +18,8 @@ import "./assets/fontawesome.js"
 
 import "./assets/styles/reset.css";
 import "./assets/styles/App.css";
+import Notices from "./pages/Notices/Notices.jsx";
+import NotFound from "./pages/NotFound/NotFound.jsx";
 
 function App() {
   return (
@@ -25,12 +27,13 @@ function App() {
       <Header />
       <Routes>
         <Route path="/"                               element={<Home />} />
+        <Route path="/avisos"                         element={<Notices />} />
         <Route path="/buzon-online"                   element={<DigitalMailbox />} />
         <Route path="/atencion-a-usuarios"            element={<CustomerSupport />} />
         <Route path="/induccion-general"              element={<GeneralInduction />} />
         <Route path="/cronos"                          element={<Cronos />} />
         <Route path="/proceso-de-evaluacion-y-certificacion-de-competencia-laboral-y-evaluaciones-cruzadas"                         element={<PECCLEC />} />
-        <Route path="*"                              element={<h1>ERROR 404</h1>} />
+        <Route path="*"                              element={<NotFound />} />
       </Routes>
       <Footer />
     </>

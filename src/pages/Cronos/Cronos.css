@@ -110,9 +110,13 @@
     line-height: 1.5;
 }
 
-
 /* Mobile Phones And Tablets */
 @media screen and (max-width: 1024px) {
+    .cronos-main-container {
+        gap: 3vh 0;
+        padding: 3vh 0;
+    }
+
     .announcement-two-cronos-container,
     .announcement-one-cronos-container,
     .manual-container-cronos,
