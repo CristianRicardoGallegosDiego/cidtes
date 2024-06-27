@@ -1,0 +1,82 @@
+.notices-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray-1);
+    width: 100%;
+}
+
+/**.notices-main-container h1 {
+    color: var(--blue-4);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 3vh 5%;
+    background-color: var(--white-1);
+    width: 80vw;
+}**/
+
+
+.jcef-container,
+.canaco-container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    align-items: center;
+}
+
+.jcef-container {
+    padding: 5vh 5%;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.jcef-container a img {
+    transition: all 0.3s ease;
+}
+
+.jcef-container a img:hover {
+    filter: brightness(80%);
+    transform: scale(1.005);
+}
+
+.coupon-container {
+    background-color: var(--white-1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5vh 5%;
+    margin-bottom: 2vh;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.jcef-container:hover,
+.coupon-container:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
+}
+
+.jcef-container a h1,
+.coupon-container h1 {
+    color: var(--blue-4);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+}
+
+.jcef-container a h1:hover {
+    text-decoration: underline;
+    color: var(--blue-3);
+}
+
+.coupon-container iframe {
+    width: 100%;
+    height: 70vh;
+}

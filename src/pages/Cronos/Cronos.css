@@ -122,5 +122,6 @@
     .manual-container-cronos,
     .cronos-sign-up-in-container {
         width: 90vw;
+        padding: 3vh 5%;
     }
 }

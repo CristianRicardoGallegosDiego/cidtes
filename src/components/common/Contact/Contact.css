@@ -14,6 +14,10 @@
     background-color: var(--blue-3);
     transition: all 0.5s ease;
     padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contact-container-section button:hover {
