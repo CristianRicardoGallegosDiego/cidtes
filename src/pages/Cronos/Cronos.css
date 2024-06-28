@@ -124,4 +124,9 @@
         width: 90vw;
         padding: 3vh 5%;
     }
+
+    .manual-container-cronos iframe {
+        width: 100%;
+        height: 50vh;
+    }
 }

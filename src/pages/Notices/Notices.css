@@ -4,17 +4,70 @@
     align-items: center;
     background-color: var(--gray-1);
     width: 100%;
+    padding: 4vh 0;
+    gap: 5vh 0;
 }
 
-/**.notices-main-container h1 {
+.notices-main-container h1 {
     color: var(--blue-4);
     font-size: 2rem;
     font-weight: 600;
-    padding: 3vh 5%;
-    background-color: var(--white-1);
+    padding: 2vh 0;
+    text-align: center;
     width: 80vw;
-}**/
+    box-sizing: border-box;
+    background-color: var(--white-1);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease-in-out;
+}
 
+.notices-notice-one-container {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    background-color: var(--white-1);
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5vh 5%;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease-in-out;
+}
+
+.notices-notice-one-container img {
+    width: 40%;
+    border-radius: 1rem;
+}
+
+.notices-notice-one-container div {
+    width: 50%;
+}
+
+.notices-notice-one-container div h2 {
+    color: var(--blue-4);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.notices-notice-one-container div p {
+    font-size: 1.25rem;
+}
+
+.civil-protection-container {
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.civil-protection-container div {
+    display: flex;
+    width: 100%;
+}
 
 .jcef-container,
 .canaco-container {
@@ -34,6 +87,7 @@
 
 .jcef-container a img {
     transition: all 0.3s ease;
+    border-radius: 1rem;
 }
 
 .jcef-container a img:hover {
@@ -55,14 +109,16 @@
     transition: all 0.5s ease-in-out;
 }
 
+.notices-main-container h1:hover,
+.notices-notice-one-container:hover,
 .jcef-container:hover,
 .coupon-container:hover {
     transform: scale(1.005);
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
 }
 
-.jcef-container a h1,
-.coupon-container h1 {
+.jcef-container a h2,
+.coupon-container h2 {
     color: var(--blue-4);
     font-size: 1.5rem;
     font-weight: 600;
@@ -79,4 +135,43 @@
 .coupon-container iframe {
     width: 100%;
     height: 70vh;
+}
+
+/* Mobile Phones And Tablets */
+@media screen and (max-width: 1024px) {
+    .notices-main-container h1 {
+        padding: 2vh 5%;
+    }
+
+    .notices-main-container {
+        padding: 3vh 0;
+        gap: 4vh 0;
+    }
+
+    .coupon-container {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    .notices-main-container h1,
+    .jcef-container,
+    .canaco-container,
+    .notices-notice-one-container {
+        width: 85vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    .coupon-container iframe {
+        height: 50vh;
+    }
+
+    .notices-notice-one-container img {
+        display: none;
+    }
+
+    .notices-notice-one-container div {
+        width: 100%;
+        text-align: justify;
+    }
 }
