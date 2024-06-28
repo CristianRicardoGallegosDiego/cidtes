@@ -44,6 +44,7 @@
 .cronos-main-container div img {
     width: 100%;
     transition: all 0.3s ease;
+    border-radius: 1rem;
 }
 
 .cronos-main-container div img:hover {
@@ -84,6 +85,7 @@
 .manual-container-cronos iframe {
     width: 100%;
     height: 70vh;
+    border-radius: 1rem;
 }
 
 .manual-container-cronos div {

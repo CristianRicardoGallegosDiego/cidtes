@@ -135,6 +135,7 @@
 .coupon-container iframe {
     width: 100%;
     height: 70vh;
+    border-radius: 1rem;
 }
 
 /* Mobile Phones And Tablets */
@@ -155,7 +156,6 @@
 
     .notices-main-container h1,
     .jcef-container,
-    .canaco-container,
     .notices-notice-one-container {
         width: 85vw;
         padding-top: 3vh;

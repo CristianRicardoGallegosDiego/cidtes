@@ -28,6 +28,7 @@
 
 .general-induction-drive {
     height: 60vh;
+    border-radius: 1rem;
 }
 
 .general-induction-container .title-container,

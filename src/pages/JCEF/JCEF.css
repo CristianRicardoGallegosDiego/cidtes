@@ -1,0 +1,88 @@
+.jcef-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray-1);
+}
+
+.jcef-page-container .hero {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+
+.operation-rules-container,
+.jcef-page-container .first-part {
+    width: 80vw;
+    background-color: var(--white-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 3vh 5%;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.4);
+}
+
+.jcef-page-container iframe {
+    width: 70%;
+    border-radius: 1rem;
+}
+
+.jcef-page-container .first-part div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jcef-page-container .first-part div img {
+    width: 100%;
+}
+
+.jcef-page-container .first-part div img:nth-child(1) {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.jcef-page-container .first-part div img:nth-child(2) {
+    border-radius: 0 0 1rem 1rem;
+}
+
+.jcef-page-container button {
+    width: 100%;
+    background-color: var(--blue-3);
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    padding: 2vh 5%;
+    color: var(--white-1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+
+.jcef-page-container button:hover {
+    background-color: var(--blue-4);
+    cursor: pointer;
+}
+
+.operation-rules-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--blue-4);
+    padding-bottom: 2vh;
+    text-align: center;
+}
+
+.operation-rules-container iframe {
+    width: 100%;
+    height: 60vh;
+}
+
+
+/* Mobile Phones And Tablets */
+@media screen and (max-width: 1024px) {
+
+}
