@@ -7,6 +7,7 @@ const CustomerSupport = () => {
         <section className="customer-support-container">
             <div className="main-container">
                 <h1>Atención a Usuarios</h1>
+                <p className="p">Si has encontrado algún obstáculo o tienes alguna consulta de los puntos debajo, no dudes en completar el formulario a continuación. Estamos aquí para ofrecerte una solución rápida y eficiente. </p>
                 <div className="cs-items-container">
                     {
                         CS.map((item, index) => {

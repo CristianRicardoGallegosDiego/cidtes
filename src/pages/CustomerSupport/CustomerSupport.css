@@ -32,6 +32,15 @@
     padding-bottom: 1rem;
 }
 
+.customer-support-container .main-container .p {
+    font-size: 1.25rem;
+    color: var(--blue-4);
+    display: flex;
+    justify-content: center;
+    padding: 0 3% 1rem 3%;
+    text-align: justify;
+}
+
 .cs-items-container {
     display: flex;
     justify-content: space-between;
@@ -87,7 +96,11 @@
     }
 
     .customer-support-container .main-container h1 {
-        padding-bottom: 0;
+        padding-bottom: 0.5rem;
+    }
+
+    .customer-support-container .main-container .p {
+        padding-bottom: 0.5rem;
     }
 
     .cs-items-container div {

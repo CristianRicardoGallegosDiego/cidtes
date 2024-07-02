@@ -1,16 +1,19 @@
 import 
-    React, {
-        useState,
-        useEffect
-    } 
-from "react";
+    React, 
+    {
+        useState
+    } from "react";
 import { TextField } from "@mui/material";
+import emailSender from "../../../services/emailSender";
 import DialogMuiCore from "../../muicore/DialogMuiCore";
 import BackdropMuiCore from "../../muicore/BackdropMuiCore";
 import TruckStatic from "../../../assets/images/truck.svg";
 import "./Contact.css";
 
+
 const Contact = () => {
+
+
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
@@ -35,37 +38,26 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // DEBEMOS CHECAR PRIMERO LAS ENTRADAS DE LOS CAMPOS CON UN IF
         setOpenMessage(true);
     };
 
-    useEffect(() => {
-        if (amIGoingToSubmit) {
-            submitMessage();
-        }
-        // eslint-disable-next-line
-    }, [amIGoingToSubmit]);
+
 
     /* Función que se encarga ahora si del envio del correo. Aqui ya estamos seguros del envio. */
     const submitMessage = async () => {
+        const formData = {
+            name: name,
+            email: email,
+            message: message
+        };
         try {
-            const response = await fetch('/api/contact', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ name, email, message }),
-            });
-
-            if (!response.ok) {
-                throw new Error('Error en el envío del formulario');
-            }
-
-            const data = await response.json();
-            console.log('Success:', data);
-            //alert('Formulario enviado exitosamente'); AQUI DEBEMOS MOSTRAR CON OTRO COMPONENTE
+            const response = await emailSender.sendEmail(formData);
+            alert(response);
+            setName("");
+            setEmail("");
+            setMessage("");
         } catch (error) {
-            
+            alert(error);
         } finally {
             setAmIGoingToSubmit(false);
         }
@@ -117,6 +109,7 @@ const Contact = () => {
                 openDialog={openMessage}
                 setOpenDialog={setOpenMessage}
                 setIsSubmitClicked={setAmIGoingToSubmit}
+                submitFunction={submitMessage}
             />
             <BackdropMuiCore 
                 isOpen={amIGoingToSubmit}

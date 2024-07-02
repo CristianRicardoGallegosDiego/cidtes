@@ -17,7 +17,8 @@ const DialogMuiCore = (props) => {
         textConfirmButton,
         openDialog,
         setOpenDialog,
-        setIsSubmitClicked
+        setIsSubmitClicked,
+        submitFunction
     } = props;
 
     return (
@@ -47,6 +48,7 @@ const DialogMuiCore = (props) => {
                     onClick={() => {
                         setOpenDialog(false);
                         setIsSubmitClicked(true);
+                        submitFunction();
                     }} 
                     variant="contained"
                     color="success"
