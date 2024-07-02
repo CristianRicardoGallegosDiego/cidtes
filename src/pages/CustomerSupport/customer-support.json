@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Soporte Técnico",
+        "problems": [
+            "Resolución de problemas relacionados con hardware y software.",
+            "Asistencia para la instalación, configuración y actualización de aplicaciones."
+        ]
+    },
+    {
+        "title": "Problemas de Red",
+        "problems": [
+            "Diagnóstico y solución de problemas de conectividad.",
+            "Configuración y mantenimiento de redes locales (LAN) y redes de área amplia (WAN)."
+        ]
+    },
+    {
+        "title": "Seguridad Informática",
+        "problems": [
+            "Monitoreo y gestión de la seguridad de la red.",
+            "Respuesta a incidentes de seguridad, como ataques de malware o intentos de acceso no autorizado."
+        ]
+    },
+    {
+        "title": "Copia de Seguridad y Recuperación de Datos",
+        "problems": [
+            "Implementación de estrategias de copia de seguridad y recuperación de datos.",
+            "Restauración de datos en caso de pérdida o corrupción."
+        ]
+    },
+    {
+        "title": "Desarrollo y Mantenimiento de Software",
+        "problems": [
+            "Creación y actualización de aplicaciones y sistemas internos.",
+            "Solución de errores y mejora continua de software."
+        ]
+    },
+    {
+        "title": "Capacitación y Soporte a Usuarios",
+        "problems": [
+            "Proporcionar formación a los usuarios sobre el uso adecuado de las herramientas y sistemas.",
+            "Ofrecer soporte técnico a los usuarios para resolver dudas y problemas cotidianos."
+        ]
+    },
+    {
+        "title": "Automatización de Procesos",
+        "problems": [
+            "Identificación y aplicación de oportunidades para la automatización de tareas y procesos.",
+            "Implementación de scripts y herramientas para mejorar la eficiencia operativa."
+        ]
+    },
+    {
+        "title": "Atención con Equipos de CIDTES",
+        "problems": [
+            "Problemas con mi computadora",
+            "Problemas con las impresoras"
+        ]
+    }
+]

@@ -11,7 +11,7 @@ import "./JCEF.css";
 
 const FirstPart = () => {
     return (
-        <div className="first-part">
+        <div className="first-part">    
             <div>
                 <img src={LogoGob} alt="Gobierno de México" />
                 <img src={FooterLogo} alt="Complemento de Logo Gob" />

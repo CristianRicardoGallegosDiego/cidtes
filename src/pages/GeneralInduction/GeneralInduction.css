@@ -29,6 +29,11 @@
 .general-induction-drive {
     height: 60vh;
     border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.video-drive-gi:hover {
+    filter: brightness(80%);
 }
 
 .general-induction-container .title-container,

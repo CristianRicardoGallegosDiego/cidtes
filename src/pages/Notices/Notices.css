@@ -127,7 +127,7 @@
     text-align: center;
 }
 
-.jcef-container a h1:hover {
+.jcef-container a h2:hover {
     text-decoration: underline;
     color: var(--blue-3);
 }

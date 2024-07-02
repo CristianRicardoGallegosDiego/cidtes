@@ -95,6 +95,11 @@
 .card-pecclec iframe {
   width: 90%;
   border-radius: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.card-pecclec iframe:hover {
+  filter: brightness(0.8);
 }
 
 .card-container-pecclec {
@@ -157,6 +162,11 @@
   width: 100%;
   height: 50vh;
   border-radius: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.swiper-slidee iframe:hover {
+  filter: brightness(0.8);
 }
 
 .swiper-slidee p {

@@ -22,7 +22,7 @@ const GeneralInduction = () => {
                         allow="autoplay"
                         width="100%"
                         height="100%"
-                        className="general-induction-drive"
+                        className="general-induction-drive video-drive-gi"
                     >
                     </iframe>
                 </div>
