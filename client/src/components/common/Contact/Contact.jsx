@@ -7,6 +7,7 @@ import { TextField } from "@mui/material";
 import emailSender from "../../../services/emailSender";
 import DialogMuiCore from "../../muicore/DialogMuiCore";
 import BackdropMuiCore from "../../muicore/BackdropMuiCore";
+import SnackbarMuiCore from "../../muicore/SnackbarMuiCore";
 import TruckStatic from "../../../assets/images/truck.svg";
 import "./Contact.css";
 
@@ -20,6 +21,11 @@ const Contact = () => {
 
     const [openMessage, setOpenMessage] = useState(false);
     const [amIGoingToSubmit, setAmIGoingToSubmit] = useState(false);
+
+    const [openAlert, setOpenAlert] = useState(false);
+    const [severity, setSeverity] = useState("");
+    const [title, setTitle] = useState("");
+    const [messageAlert, setMessageAlert] = useState("");
 
     /**
      * Las siguientes funciones {handleName, handleEmail, handleMessage} se encargan de manejar los cambios en los campos de texto.
@@ -52,12 +58,20 @@ const Contact = () => {
         };
         try {
             const response = await emailSender.sendEmail(formData);
-            alert(response);
+            setSeverity("success");
+            setTitle("Envío Exitoso");
+            setMessageAlert(response);
+
             setName("");
             setEmail("");
             setMessage("");
+
+            setOpenAlert(true);
         } catch (error) {
-            alert(error);
+            setSeverity("error");
+            setTitle("¡Ups! Algo salió mal :(");
+            setMessageAlert(error.message);
+            setOpenAlert(true);
         } finally {
             setAmIGoingToSubmit(false);
         }
@@ -113,6 +127,13 @@ const Contact = () => {
             />
             <BackdropMuiCore 
                 isOpen={amIGoingToSubmit}
+            />
+            <SnackbarMuiCore 
+                open={openAlert}
+                setOpen={setOpenAlert}
+                severity={severity}
+                title={title}
+                message={messageAlert}
             />
         </div>
     );
