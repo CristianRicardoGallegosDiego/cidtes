@@ -21,10 +21,12 @@ import "./assets/styles/reset.css";
 import "./assets/styles/App.css";
 import Notices from "./pages/Notices/Notices.jsx";
 import NotFound from "./pages/NotFound/NotFound.jsx";
+import ScrollToTop from "./hooks/ScrollToTop.jsx";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/"                                 element={<Home />} />

@@ -1,3 +1,8 @@
+.header-main-c {
+    display: flex;
+    flex-direction: column;
+}
+
 .header-container {
     background-color: var(--blue-3);
     display: flex;
@@ -79,6 +84,23 @@
         opacity: 0;
     }
 }
+
+.routes-nav-container ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--blue-4);
+    padding: 2vh 0;
+    color: var(--white-1);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.routes-nav-container ul li {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Mobile Phones And Tablets */
 @media screen and (max-width: 1024px) {

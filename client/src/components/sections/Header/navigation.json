@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Inicio",
+        "url": "/"
+    },
+    {
+        "title": "Capacitación y Certificación",
+        "url": "/capacitacion-y-certificacion"
+    },
+    {
+        "title": "Energía y Sustentabilidad",
+        "url": "/energia-y-sustentabilidad"
+    },
+    {
+        "title": "Investigación y Desarrollo",
+        "url": "/investigacion-y-desarrollo"
+    }
+]

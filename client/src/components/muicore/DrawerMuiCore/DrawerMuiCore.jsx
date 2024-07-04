@@ -52,14 +52,14 @@ const DrawerMuiCore = (props) => {
                 isOpen={isOpen}
                 setIsOpen={setIsOpen}
             />
-            <ItemDrawerThree
+            {/**<ItemDrawerThree
                 icon="fa-solid fa-users-gear"
                 title="Equipo de CIDTES"
                 complexItems={ComplexItemSS}
                 isOpen={isOpen}
                 setIsOpen={setIsOpen}
                 isThereSimplexItems={false}
-            />
+            />**/}
             <ItemDrawerTwo
                 icon="fa-solid fa-lightbulb"
                 title="Marketing y Diseño"
