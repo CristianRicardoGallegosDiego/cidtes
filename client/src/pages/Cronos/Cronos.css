@@ -8,6 +8,7 @@
     padding: 5vh 0;
 }
 
+.attention-to-failure,
 .announcement-two-cronos-container,
 .announcement-one-cronos-container,
 .manual-container-cronos,
@@ -30,6 +31,7 @@
     align-items: center;
 }
 
+.attention-to-failure h1,
 .announcement-two-cronos-container h1,
 .announcement-one-cronos-container h1,
 .manual-container-cronos h1,
@@ -52,6 +54,7 @@
     transform: scale(1.005);
 }
 
+.attention-to-failure:hover,
 .announcement-two-cronos-container:hover,
 .announcement-one-cronos-container:hover,
 .manual-container-cronos:hover,
@@ -60,6 +63,7 @@
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.6);
 }
 
+.attention-to-failure div a,
 .cronos-redirection-link {
     padding: 1rem 1rem;
     box-sizing: border-box;
@@ -76,6 +80,7 @@
     margin-top: 1rem;
 }
 
+.attention-to-failure div a:hover,
 .cronos-redirection-link:hover {
     background-color: var(--blue-4);
     transform: scale(1.005);
@@ -112,6 +117,30 @@
     line-height: 1.5;
 }
 
+.attention-to-failure div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.attention-to-failure div iframe {
+    width: 100%;
+    height: 70vh;
+    border-radius: 1rem;
+}
+
+.attention-to-failure div p {
+    padding-bottom: 1rem;
+}
+
+.manual-container-cronos div,
+.announcement-one-cronos-container div,
+.announcement-two-cronos-container div,
+.attention-to-failure div p {
+    text-align: justify;
+}
+
+
 /* Mobile Phones And Tablets */
 @media screen and (max-width: 1024px) {
     .cronos-main-container {
@@ -119,12 +148,19 @@
         padding: 3vh 0;
     }
 
+    .attention-to-failure,
     .announcement-two-cronos-container,
     .announcement-one-cronos-container,
     .manual-container-cronos,
     .cronos-sign-up-in-container {
         width: 90vw;
         padding: 3vh 5%;
+    }
+
+    .attention-to-failure div iframe {
+        height: 50vh;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
     .manual-container-cronos iframe {

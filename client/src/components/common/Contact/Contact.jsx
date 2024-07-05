@@ -38,7 +38,7 @@ const Contact = () => {
     const [errorEmail, setErrorEmail] = useState(false);
     const [errorMessage, setErrorMessage] = useState(false);
     const [Truck, setTruck] = useState(StaticTruck);
-    const [helperTextMessage, setHelperTextMessage] = useState('Enter your message.');
+    const [helperTextMessage, setHelperTextMessage] = useState('Ingrese su mensaje.');
 
     /**
      * Las siguientes funciones {handleName, handleEmail, handleMessage} se encargan de manejar los cambios en los campos de texto.

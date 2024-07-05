@@ -41,6 +41,31 @@ const AnnouncementTwo = () => {
     );
 };
 
+const AttentionToFailure = () => {
+    return (
+        <section className="attention-to-failure">
+            <h1>Atención a Fallas en CRONOS</h1>
+            <div>
+                <p>Si no se te registraron tus horas correctamente o tienes alguna situación, por favor, registre la incidencia en el siguiente Google Excel. Su colaboración nos ayudará a solucionar los problemas de manera más eficiente.</p>
+                <iframe
+                    src="https://docs.google.com/spreadsheets/d/1uo54sRdbzMaLo9EqeQPx7X8bvOYXhtSuLIUkubEfj8M/edit?usp=sharing"
+                    title="Manual de Uso de CRONOS"
+                    allow="autoplay"
+                >
+                </iframe>
+                <a
+                    href="https://docs.google.com/spreadsheets/d/1uo54sRdbzMaLo9EqeQPx7X8bvOYXhtSuLIUkubEfj8M/edit?gid=0#gid=0"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Ir a Google-Sheets
+                </a>
+            </div>
+
+        </section>
+    );
+};
+
 const Cronos = () => {
     return (
         <section className="cronos-main-container">
@@ -60,6 +85,7 @@ const Cronos = () => {
                     </a>
                 </div>
             </div>
+            <AttentionToFailure />
             <div className="manual-container-cronos">
                 <h1>Manual de Uso para la Plataforma "CRONOS"</h1>
                 <iframe 
