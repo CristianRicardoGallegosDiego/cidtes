@@ -73,10 +73,12 @@ const InformationOfProgram = () => {
             <div className="jcef-infc-main">
                 <div>
                     <h3>Seguro Médico por parte del IMSS</h3>
-                    <p>Durante el periodo que te encuentres en capacitación en el Programa JFC, tendrás acceso a una cobertura de atención de la salud otorgada por el IMSS, que entre sus beneficios incluye:</p>
-                    <p> 1.- Consulta médica general.</p>
-                    <p> 2.- Seguro médico por enfermedades y maternidad: Asistencia médico-quirúrgica, farmacéutica, hospitalaria, así como la asistencia obstétrica.</p>
-                    <p> 3.- Seguro médico por riesgos de trabajo: Asistencia médica-quirúrgica, farmacéutica; servicio de hospitalización, aparatos de prótesis y ortopedia y rehabilitación.</p>
+                    <div>
+                        <p>Durante el periodo que te encuentres en capacitación en el Programa JFC, tendrás acceso a una cobertura de atención de la salud otorgada por el IMSS, que entre sus beneficios incluye:</p>
+                        <p> 1.- Consulta médica general.</p>
+                        <p> 2.- Seguro médico por enfermedades y maternidad: Asistencia médico-quirúrgica, farmacéutica, hospitalaria, así como la asistencia obstétrica.</p>
+                        <p> 3.- Seguro médico por riesgos de trabajo: Asistencia médica-quirúrgica, farmacéutica; servicio de hospitalización, aparatos de prótesis y ortopedia y rehabilitación.</p>
+                    </div>
                     <iframe
                         src="https://www.youtube.com/embed/H1ELf9L0HV8?si=xXerh7ub-prbEnOf" 
                         title="YouTube video player" 
@@ -89,12 +91,12 @@ const InformationOfProgram = () => {
                 <div>
                     <h3>Apoyo de $6,310.00</h3>
                     <p>Una vez iniciado el periodo de capacitación, el aprendiz recibirá de manera mensual, un apoyo económico, hasta por 12 meses, otorgado por la Secretaría del Trabajo y Previsión Social y que equivale a $6,310.00 pesos (seis mil trescientos diez M.N.) a través de una tarjeta del Banco del Bienestar. </p>
-                    <img src={Img4} alt="JCEF" />
+                    <img src={Img4} alt="JCEF" className="img-inf" />
                 </div>
                 <div>
                     <h3>Experiencia Laboral Adquirida en Capacitación</h3>
                     <p>Una vez finalizados los 12 meses de capacitación, la Secretaría del Trabajo y Previsión Social otorgará al aprendiz egresado una Constancia de Capacitación, misma que podrá contener las competencias técnicas desarrolladas y que fungirá como documento que acredite un año (12 meses) de experiencia laboral adquirida. </p>
-                    <img src={Img5} alt="JCEF" />
+                    <img src={Img5} alt="JCEF" className="img-inf" />
                 </div>
             </div>
         </section>

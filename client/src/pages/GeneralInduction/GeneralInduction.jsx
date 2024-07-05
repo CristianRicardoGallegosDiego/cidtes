@@ -11,7 +11,7 @@ const GeneralInduction = () => {
                 <div className="notice-general-induction-container">
                     <h2>Hola, bienvenida y bienvenido a CIDTES.</h2>
                     <div>
-                        <p>Te preguntarás <strong>¿Qué es CIDTES?</strong></p>
+                        <p className="title">Te preguntarás <strong>¿Qué es CIDTES?</strong></p>
                         <p>En este momento se encuentra alguien de Recursos Humanos contigo para pode realizar tu inducción, a continuación observa el siguiente video:</p>
                     </div>
                 </div>

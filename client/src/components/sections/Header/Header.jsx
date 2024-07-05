@@ -38,7 +38,11 @@ const Header = () => {
                         NavigationRoutes.map((route, index) => {
                             return (
                                 <li key={index}>
-                                    <Link to={route.url}>{route.title}</Link>
+                                    <Link 
+                                        to={route.url}
+                                    >   
+                                        {route.title}
+                                    </Link>
                                 </li>
                             );
                         })

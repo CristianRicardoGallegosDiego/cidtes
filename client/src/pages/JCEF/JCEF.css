@@ -131,6 +131,10 @@
     border-radius: 1rem;
 }
 
+.information-of-program-container .first-display .a {
+    margin-bottom: 1rem;
+}
+
 .information-of-program-container .first-display a img {
     width: 100%;
     border-radius: 1rem;
@@ -152,6 +156,19 @@
     flex-direction: column;
     align-items: center;
     width: 30%;
+    text-align: justify;
+}
+
+.jcef-infc-main div div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.jcef-infc-main div div p:nth-child(2){
+    padding-top: 0.5rem;
+    
 }
 
 .jcef-infc-main div h3 {
@@ -162,9 +179,62 @@
     padding-bottom: 1rem;
 }
 
+.jcef-infc-main div iframe {
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    height: 25vh;
+}
 
+.jcef-infc-main div iframe:hover {
+    filter: brightness(0.8);
+}
+
+.jcef-infc-main div .img-inf {
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
 
 /* Mobile Phones And Tablets */
 @media screen and (max-width: 1024px) {
+    .jcef-page-container {
+        padding-bottom: 3vh;
+        gap: 3vh 0;
+    }
 
+    .jcef-page-container .hero {
+        height: 20vh;
+    }
+
+    .information-of-program-container,
+    .operation-rules-container,
+    .jcef-page-container .first-part {
+        width: 90vw;
+    }
+
+    .jcef-page-container .main-video {
+        width: 90vw;
+        height: 30vh;
+    }
+
+    .jcef-page-container .img {
+        width: 90vw;
+    }
+
+    .jcef-page-container .pdf-jcef {
+        width: 90vw;
+        height: 35vh;
+    }
+
+    .information-of-program-container .jcef-infc-main {
+        flex-direction: column;
+        gap: 3vh 0;
+    }
+
+    .jcef-infc-main div {
+        width: 100%;
+    }
 }

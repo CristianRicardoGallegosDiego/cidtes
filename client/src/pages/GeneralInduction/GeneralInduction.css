@@ -63,6 +63,14 @@
     color: var(--blue-4);
 }
 
+.notice-general-induction-container h2 {
+    text-align: center;
+}
+
+.notice-general-induction-container div {
+    text-align: justify;
+}
+
 /* Mobile Phones And Tablets */
 @media screen and (max-width: 1024px) {
     .induction-container  {

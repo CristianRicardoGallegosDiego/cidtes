@@ -138,6 +138,10 @@
     border-radius: 1rem;
 }
 
+.notices-notice-one-container div p {
+    text-align: justify;
+}
+
 /* Mobile Phones And Tablets */
 @media screen and (max-width: 1024px) {
     .notices-main-container h1 {
