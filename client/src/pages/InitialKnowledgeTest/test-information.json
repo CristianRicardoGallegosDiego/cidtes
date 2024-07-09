@@ -1,0 +1,42 @@
+[
+    {
+        "id": "pedagogia",
+        "title": "Pedagogía",
+        "url_forms": "https://docs.google.com/forms/d/e/1FAIpQLSffAylQBwvAYL324wsBqSmIEaV0IWJxnpAwWn1l_QtFkzGo5Q/viewform"
+    },
+    {
+        "id": "ingenieria-industrial",
+        "title": "Ingienería Industrial",
+        "url_forms": "https://docs.google.com/forms/d/e/1FAIpQLSd9Zt4aZPKU9S_iZzj7P3RirhVdsFw6pEQhOE-bpCDuJPjfMA/viewform"
+    },
+    {
+        "id": "recursos-humanos",
+        "title": "Recursos Humanos",
+        "url_forms": "https://docs.google.com/forms/d/e/1FAIpQLSfv9RAR4aewQ4RRZ7-3ENgLurKPrUp7E_VD3S3awW-o28gpxg/viewform"
+    },
+    {
+        "id": "administracion",
+        "title": "Administración",
+        "url_forms": "https://docs.google.com/forms/d/e/1FAIpQLSdckOAlXdDeWwjKLhiz16q05lZe6LRZYuV_6JMGgpltZ9QY0A/viewform"
+    },
+    {
+        "id": "derecho",
+        "title": "Derecho",
+        "url_forms": "https://docs.google.com/forms/d/e/1FAIpQLSfTI9z7arvMt_k92LfxtnXtqBJxnXNAoE7LagLB83YTZaWRGg/viewform"
+    },
+    {
+        "id": "arte-y-disenno",
+        "title": "Arte y Diseño",
+        "url_forms": "https://docs.google.com/forms/d/e/1FAIpQLSezIbPGWJehC5IgkhoUZng_RJBL7IwVCo77jI-DcYLnE7T-Ng/viewform"
+    },
+    {
+        "id": "contabilidad",
+        "title": "Contabilidad",
+        "url_forms": "https://docs.google.com/forms/d/e/1FAIpQLSfzNRtC0v1MxJeJlFinXO3tnxozYCk9R53InMf9wZ5p370O_A/viewform"
+    },
+    {
+        "id": "ingenieria-electrica-electronica",
+        "title": "Ingeniería Eléctrica Electrónica",
+        "url_forms": "https://docs.google.com/forms/d/e/1FAIpQLSdDrD0uMyUcP_CJBEUGTxLxdMedFA2GDx07v5DMq_uAM5Xiag/viewform"
+    }
+]

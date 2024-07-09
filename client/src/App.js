@@ -12,6 +12,7 @@ import GeneralInduction from "./pages/GeneralInduction/GeneralInduction.jsx";
 import PECCLEC from "./pages/PECCLEC/PECCLEC.jsx";
 import JCEF from "./pages/JCEF/JCEF.jsx";
 import Cronos from "./pages/Cronos/Cronos.jsx";
+import InitialKnowledgeTest from "./pages/InitialKnowledgeTest/InitialKnowledgeTest.jsx";
 import CustomerSupport from "./pages/CustomerSupport/CustomerSupport.jsx";
 import Notices from "./pages/Notices/Notices.jsx";
 import MeetLink from "./pages/MeetLink/MeetLink.jsx";
@@ -26,16 +27,17 @@ function App() {
       <ScrollToTop />
       <Header />
       <Routes>
-        <Route path="/"                                 element={<Home />} />
-        <Route path="/avisos"                           element={<Notices />} />
-        <Route path="/induccion-general"                element={<GeneralInduction />} />
-        <Route path="/proceso-de-evaluacion-y-certificacion-de-competencia-laboral-y-evaluaciones-cruzadas"                         element={<PECCLEC />} />
-        <Route path="/reuniones-meet/:view"                        element={<MeetLink />} />
-        <Route path="/buzon-online"                     element={<DigitalMailbox />} />
-        <Route path="/atencion-a-usuarios"              element={<CustomerSupport />} />
-        <Route path="/cronos"                           element={<Cronos />} />
-        <Route path="/jovenes-construyendo-el-futuro"   element={<JCEF />} />
-        <Route path="*"                              element={<NotFound />} />
+        <Route path="/"                                                                                         element={<Home />} />
+        <Route path="/avisos"                                                                                   element={<Notices />} />
+        <Route path="/induccion-general"                                                                        element={<GeneralInduction />} />
+        <Route path="/proceso-de-evaluacion-y-certificacion-de-competencia-laboral-y-evaluaciones-cruzadas"     element={<PECCLEC />} />
+        <Route path="/reuniones-meet/:view"                                                                     element={<MeetLink />} />
+        <Route path="/buzon-online"                                                                             element={<DigitalMailbox />} />
+        <Route path="/atencion-a-usuarios"                                                                      element={<CustomerSupport />} />
+        <Route path="/cronos"                                                                                   element={<Cronos />} />
+        <Route path="/test-conocimientos/:test"                                                        element={<InitialKnowledgeTest />} />
+        <Route path="/jovenes-construyendo-el-futuro"                                                           element={<JCEF />} />
+        <Route path="*"                                                                                         element={<NotFound />} />
       </Routes>
       <Footer />
     </>
