@@ -80,7 +80,8 @@ const DrawerMuiCore = (props) => {
     return (
         <div>
             <Drawer 
-                open={isOpen} 
+                open={isOpen}
+                onClose={() => setIsOpen(!setIsOpen)}
             >
                 <button
                     className="drawer-close-button-mine"
