@@ -1,0 +1,117 @@
+.meet-link-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray-1);
+    padding: 4vh 0;
+}
+
+.card-link-container {
+    background-color: var(--white-1);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3vh 5%;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-link-container:hover {
+    transform: scale(1.005);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+}
+
+.card-link-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--blue-4);
+    font-weight: 600;
+}
+
+.meet-link-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.meet-link-container img {
+    width: 45%;
+}
+
+.meet-link-container .info {
+    width: 45%;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0;
+}
+
+.meet-link-container .info h2 {
+    font-size: 1.5rem;
+    color: var(--blue-4);
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.info .extra-meet-info a,
+.info .meet-info a {
+    color: var(--blue-4);
+    font-weight: 600;
+}
+
+.info .extra-meet-info a:hover,
+.info .meet-info a:hover {
+    text-decoration: underline;
+}
+
+.info .more-meet-info ul li span {
+    font-weight: 600;
+}
+
+.info .btn-google-meet {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.info .btn-google-meet a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 5%;
+    box-sizing: border-box;
+    background-color: var(--blue-3);
+    color: var(--white-1);
+    font-weight: 600;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.info .btn-google-meet a:hover {
+    background-color: var(--blue-4);
+}
+
+@media screen and (max-width: 1024px) {
+    .card-link-container {
+        width: 90vw;
+    }
+
+    .meet-link-container img {
+        display: none;
+    }
+
+    .meet-link-container .info {
+        width: 100%;
+    }
+
+    .meet-link-container .info h2 {
+        padding-top: 1rem;
+    }
+}

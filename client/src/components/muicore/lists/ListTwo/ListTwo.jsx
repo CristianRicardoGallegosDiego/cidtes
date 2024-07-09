@@ -13,7 +13,8 @@ import "./ListTwo.css";
 const ListItem = (props) => {
     const {
         headerTitle,
-        options
+        options,
+        setOpenDrawer
     } = props;
     const [open, setOpen] = useState(true);
 
@@ -36,7 +37,10 @@ const ListItem = (props) => {
                                 to={option.link}
                                 className="list-item-item-button-drawer-two"
                             >
-                                <ListItemButton sx={{ pl: 4 }}>
+                                <ListItemButton 
+                                    sx={{ pl: 4 }}
+                                    onClick={() => setOpenDrawer(false)}
+                                >
                                     <ListItemText
                                         primary={option.title}
                                     />
@@ -66,6 +70,7 @@ const ListTwo = (props) => {
                             headerTitle={card.title}
                             options={card.options}
                             className="my-drawer-header-list-mine"
+                            setOpenDrawer={props.setIsOpen}
                         />
                     );
                 })

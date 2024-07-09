@@ -1,0 +1,106 @@
+[
+    {
+        "id": "capacitacion",
+        "title": "Capacitación",
+        "meet_link": "ahf-xfwr-hvz",
+        "phone": "+52 55 8421 0898",
+        "pin": "732 427 575 0905#",
+        "phone_link": "ahf-xfwr-hvz?hs=5"
+    },
+    {
+        "id": "energia",
+        "title": "Energía",
+        "meet_link": "whd-iosa-mph",
+        "phone": "+52 55 8421 0898",
+        "pin": "539 174 381 4925#",
+        "phone_link": "whd-iosa-mph?hs=5"
+    },
+    {
+        "id": "marketing-y-disenno",
+        "title": "Marketing y Diseño",
+        "meet_link": "yrp-uwuy-xiy",
+        "phone": "+52 55 8421 0898",
+        "pin": "450 263 847 4261#",
+        "phone_link": "yrp-uwuy-xiy?hs=5"
+    },
+    {
+        "id": "derecho",
+        "title": "Derecho",
+        "meet_link": "fzm-ntct-acw",
+        "phone": "+52 55 8421 0898",
+        "pin": "752 346 157 6298#",
+        "phone_link": "fzm-ntct-acw?hs=5"
+    },
+    {
+        "id": "sistemas-de-gestion",
+        "title": "Sistemas de Gestión",
+        "meet_link": "ppq-pgge-emk",
+        "phone": "+52 55 8421 0898",
+        "pin": "865 942 185 2770#",
+        "phone_link": "ppq-pgge-emk?hs=5"
+    },
+    {
+        "id": "seguridad",
+        "title": "Seguridad",
+        "meet_link": "wsk-hrvr-how",
+        "phone": "+52 55 8421 0898",
+        "pin": "955 594 093 2740#",
+        "phone_link": "wsk-hrvr-how?hs=5"
+    },
+    {
+        "id": "recursos-humanos",
+        "title": "Recursos Humanos",
+        "meet_link": "cir-ujth-jwy",
+        "phone": "+52 55 8421 0898",
+        "pin": "348 184 473 7086#",
+        "phone_link": "cir-ujth-jwy?hs=5"
+    },
+    {
+        "id": "ninnos",
+        "title": "Niños",
+        "meet_link": "xuq-dzeb-wxp",
+        "phone": "+52 55 8421 0898",
+        "pin": "723 502 941 5367#",
+        "phone_link": "xuq-dzeb-wxp?hs=5"
+    },
+    {
+        "id": "sistemas",
+        "title": "Sistemas",
+        "meet_link": "xxt-ryvz-tva",
+        "phone": "+52 55 8421 0898",
+        "pin": "418 004 313 9452#",
+        "phone_link": "xxt-ryvz-tva?hs=5"
+    },
+    {
+        "id": "coordinacion",
+        "title": "Coordinación",
+        "meet_link": "sup-oqph-aca",
+        "phone": "+52 55 8421 0898",
+        "pin": "612 051 038 6516#",
+        "phone_link": "sup-oqph-aca?hs=5"
+    },
+    {
+        "id": "contabilidad",
+        "title": "Contabilidad",
+        "meet_link": "uui-nmzd-kxm",
+        "phone": "+52 55 8421 0898",
+        "pin": "238 143 173 3576#",
+        "phone_link": "uui-nmzd-kxm?hs=5"
+    },
+    {
+        "id": "administracion",
+        "title": "Administración",
+        "meet_link": "agf-vxeb-txk",
+        "phone": "+52 55 8421 0898",
+        "pin": "590 986 896 1427#",
+        "phone_link": "agf-vxeb-txk?hs=5"
+    },
+    {
+        "id": "ece",
+        "title": "ECE",
+        "meet_link": "vui-gadc-bef",
+        "phone": "+52 55 8421 0898",
+        "pin": "535 588 920 3257#",
+        "phone_link": "vui-gadc-bef?hs=5"
+    }
+]

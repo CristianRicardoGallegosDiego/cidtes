@@ -43,6 +43,7 @@ const ItemDrawerThree = (props) => {
             {
                 <ListTwo 
                     cards={complexItems}
+                    setIsOpen={setIsOpen}
                 />
             }
         </>
