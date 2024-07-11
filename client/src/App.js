@@ -11,6 +11,7 @@ import Notices from "./pages/Notices/Notices.jsx";
 import GeneralInduction from "./pages/GeneralInduction/GeneralInduction.jsx";
 import PECCLEC from "./pages/PECCLEC/PECCLEC.jsx";
 import Cronos from "./pages/Cronos/Cronos.jsx";
+import AttendanceRecord from "./pages/AttendanceRecord/AttendanceRecord.jsx";
 import AccessToGroupsEmails from "./pages/AccessToGroupsEmails/AccessToGroupsEmails.jsx";
 import MeetLink from "./pages/MeetLink/MeetLink.jsx";
 import InitialKnowledgeTest from "./pages/InitialKnowledgeTest/InitialKnowledgeTest.jsx";
@@ -33,6 +34,7 @@ function App() {
         <Route path="/induccion-general"                                                                        element={<GeneralInduction />} />
         <Route path="/proceso-de-evaluacion-y-certificacion-de-competencia-laboral-y-evaluaciones-cruzadas"     element={<PECCLEC />} />
         <Route path="/cronos"                                                                                   element={<Cronos />} />
+        <Route path="/registro-de-asistencia"                                                                   element={<AttendanceRecord />} />
         <Route path="/acceso-a-grupos-y-correos"                                                                element={<AccessToGroupsEmails />} />
         <Route path="/reuniones-meet/:view"                                                                     element={<MeetLink />} />
         <Route path="/test-conocimientos/:test"                                                                 element={<InitialKnowledgeTest />} />
