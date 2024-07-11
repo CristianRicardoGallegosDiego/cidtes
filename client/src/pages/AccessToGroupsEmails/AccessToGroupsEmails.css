@@ -1,0 +1,168 @@
+.access-to-groups-emails-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray-1);
+    padding: 5vh 0;
+    gap: 3vh 0;
+}
+
+.access-to-whatsapp-container {
+    display: flex;
+    width: 80vw;
+    box-sizing: border-box;
+    padding: 3vh 5%;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white-1);
+}
+
+.access-to-whatsapp-container p {
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.access-to-whatsapp-container .images-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.access-to-whatsapp-container .images-container .qrs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.access-to-whatsapp-container .images-container .qrs-container .button-accec-to-whatsapp {
+    background-color: var(--blue-3);
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1rem 5%;
+    font-weight: 600;
+    color: var(--white-1);
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.access-to-whatsapp-container .images-container .qrs-container .button-accec-to-whatsapp:hover {
+    background-color: var(--blue-4);
+}
+
+.access-to-whatsapp-container .images-container .qrs-container a{
+    width: 100%;
+}
+
+
+.access-to-whatsapp-container .images-container div {
+    width: 40%;
+}
+
+.access-to-whatsapp-container img {
+    width: 100%;
+}
+
+.access-to-emails-container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding: 3vh 5%;
+    box-sizing: border-box;
+    background-color: var(--white-1);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.access-to-whatsapp-container h1,
+.access-to-emails-container h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--blue-4);
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.access-to-emails-container div .patge {
+    text-align: justify;
+}
+
+.access-to-emails-container img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.access-to-emails-container div ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.access-to-emails-container div ul li {
+    width: 47.5%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+.access-to-emails-container div ul li p {
+    font-size: 1.25rem;
+    color: var(--blue-4);
+    font-weight: 600;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+
+.access-to-emails-container div ul div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 0;
+}
+
+.access-to-whatsapp-container:hover,
+.access-to-emails-container:hover {
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+    transform: scale(1.005);
+}
+
+@media screen and (max-width: 1024px) {
+    .access-to-whatsapp-container .images-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .access-to-whatsapp-container .images-container div {
+        width: 100%;
+    }
+
+    .access-to-whatsapp-container p {
+        padding-bottom: 0;
+    }
+
+    .access-to-whatsapp-container .images-container .qrs-container .button-accec-to-whatsapp {
+        margin-bottom: 2rem;
+    }
+
+    .access-to-groups-emails-container {
+        padding: 3vh 0;
+    }
+
+    .access-to-whatsapp-container,
+    .access-to-emails-container  {
+        width: 90vw;
+    }
+
+    .access-to-emails-container div ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .access-to-emails-container div ul li {
+        width: 100%;
+    }
+}
