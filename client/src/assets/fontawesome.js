@@ -17,7 +17,8 @@ import {
     faUsersGear,
     faArrowsToCircle,
     faPuzzlePiece,
-    faHandsHoldingChild
+    faHandsHoldingChild,
+    faHouse
 } from "@fortawesome/free-solid-svg-icons";
 import { 
     faFacebook, 
@@ -46,5 +47,6 @@ library.add(
     faUsersGear,
     faArrowsToCircle,
     faPuzzlePiece,
-    faHandsHoldingChild
+    faHandsHoldingChild,
+    faHouse
 );

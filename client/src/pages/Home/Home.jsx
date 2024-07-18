@@ -1,5 +1,5 @@
 import React from "react";
-import SwiperJS from "../../components/common/SwiperJS/SwiperJS";
+/**import SwiperJS from "../../components/common/SwiperJS/SwiperJS";
 import WhoAreWe from "../../components/sections/Home/WhoAreWe/WhoAreWe";
 import OurCommitment from "../../components/sections/Home/OurCommitment/OurCommitment";
 import AboutUs from "../../components/sections/Home/AboutUs/AboutUs";
@@ -21,6 +21,14 @@ const Home = () => {
             <WhoAreWe />
             <OurCommitment />
             <AboutUs />
+        </section>
+    );
+};**/
+
+const Home = () => {
+    return (
+        <section>
+            <h1>HOME</h1>
         </section>
     );
 };

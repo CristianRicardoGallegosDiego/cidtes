@@ -8,7 +8,7 @@ import ItemDrawerThree from "../../common/items-drawer/ItemDrawerThree/ItemDrawe
 import Induction from "./database/induccion.json";
 import SimpleItemsSS from "./database/social-service/simple-items.json";
 import ComplexItemSS from "./database/social-service/complex-item.json";
-import MarketingAndDesign from "./database/marketing-y-disenno.json"; 
+//import MarketingAndDesign from "./database/marketing-y-disenno.json"; 
 import "./DrawerMuiCore.css";
 
 const DrawerMuiCore = (props) => {
@@ -22,6 +22,13 @@ const DrawerMuiCore = (props) => {
             sx={{ width: 275 }} 
             role="presentation"
         >
+            <ItemDrawerOne 
+                icon="fa-solid fa-home"
+                title="Home"
+                link="/"
+                isOpen={isOpen}
+                setIsOpen={setIsOpen}
+            />
             <ItemDrawerOne 
                 icon="fa-solid fa-sign-hanging"
                 title="Avisos"
@@ -45,13 +52,13 @@ const DrawerMuiCore = (props) => {
                 setIsOpen={setIsOpen}
                 isThereSimplexItems={true}
             />
-            <ItemDrawerOne 
+            {/**<ItemDrawerOne 
                 icon="fa-solid fa-arrows-to-circle"
                 title="Coordinación"
                 link="/coordinacion"
                 isOpen={isOpen}
                 setIsOpen={setIsOpen}
-            />
+            />**/}
             {/**<ItemDrawerThree
                 icon="fa-solid fa-users-gear"
                 title="Equipo de CIDTES"
@@ -60,13 +67,13 @@ const DrawerMuiCore = (props) => {
                 setIsOpen={setIsOpen}
                 isThereSimplexItems={false}
             />**/}
-            <ItemDrawerTwo
+            {/**<ItemDrawerTwo
                 icon="fa-solid fa-lightbulb"
                 title="Marketing y Diseño"
                 items={MarketingAndDesign}
                 isOpen={isOpen}
                 setIsOpen={setIsOpen}
-            />
+            />**/}
             <ItemDrawerOne 
                 icon="fa-solid fa-seedling"
                 title="Jóvenes Construyendo el Futuro"

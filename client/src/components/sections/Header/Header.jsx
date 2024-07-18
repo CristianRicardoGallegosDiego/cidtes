@@ -2,9 +2,9 @@ import React, {
     useState
 } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import DrawerMuiCore from "../../muicore/DrawerMuiCore/DrawerMuiCore";
-import NavigationRoutes from "./navigation.json";
+//import NavigationRoutes from "./navigation.json";
 import Logo from "../../../assets/images/logo.png";
 import "./Header.css";
 
@@ -32,7 +32,7 @@ const Header = () => {
                     setIsOpen={setIsOpenDrawer}
                 />
             </section>
-            <nav className="routes-nav-container">
+            {/**<nav className="routes-nav-container">
                 <ul>
                     {
                         NavigationRoutes.map((route, index) => {
@@ -48,7 +48,7 @@ const Header = () => {
                         })
                     }
                 </ul>
-            </nav>
+            </nav>**/}
         </section>
     );
 };
