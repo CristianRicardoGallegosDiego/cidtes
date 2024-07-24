@@ -40,7 +40,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://cidtes-server.vercel.app/",
+  "proxy": "https://servicio-social-cidtes-server.vercel.app",
   "eslintConfig": {
     "extends": [
       "react-app",
