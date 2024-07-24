@@ -268,7 +268,7 @@ const Home = () => {
                         Hola :)
                     </h2>
                     <p className="text-center text-base md:text-lg font-normal text-neutral-700 max-w-md mt-2 mx-auto">
-                        Tu Aventura con CIDTES A. C. Comienza Aquí.
+                        Tu Aventura con CIDTES A. C. comienza aquí.
                     </p>
                 </motion.div>
                 <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b from-transparent to-[#F9F9F9]  pointer-events-none select-none z-40" />
